@@ -21,7 +21,7 @@ public class PlayerScript : MonoBehaviour
         playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
 
         //if (playerRB.linearVelocity.y > 0) // framåt rörelse
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
         }
