@@ -15,7 +15,7 @@ public class PlayerScript : MonoBehaviour
         // Spacebar startar båtens FRAMÅT rörelse
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.position += new Vector3(0, 0, 10) * Time.deltaTime;
+            transform.position += new Vector3(0, 0, -1) * (speed * Time.deltaTime);
         }
 
         //if (Input.GetKeyDown(KeyCode.Space))
