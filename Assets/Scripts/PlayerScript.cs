@@ -24,10 +24,10 @@ public class PlayerScript : MonoBehaviour
         {
             transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
         }
-        else // Ingen rörelse
-        {
-            transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
-        }
+        //else // Ingen rörelse
+        //{
+        //    transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
+        //}
 
         // Kollar tangentbords-inmatningen för HORISONTELL rörelse => (vänster pil/A eller höger pil/D)
         playerRB.linearVelocity = new Vector3 ((speed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
