@@ -8,16 +8,19 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody>(); // Hämta spelarens (båtens) rigidbody-komponent
+
+        // TEST flyttat nedan kod från FixedUpdate till Start
+        // Spacebar startar båtens FRAMÅT rörelse
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            playerRB.linearVelocity = transform.forward * speed; // Sätt båtens rörelse framåt med angiven hastighet
+            Debug.Log("Spacebar pressed - Boat moving forward");
+        }
     }
 
     void FixedUpdate()
     {
-        // Spacebar startar båtens FRAMÅT rörelse
-        if (Input.GetKeyDown(KeyCode.Space))
-        { 
-            playerRB.linearVelocity = transform.forward * speed;
-            Debug.Log("Spacebar pressed - Boat moving forward");
-        }
+
             //playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
 
             //if (playerRB.linearVelocity.y > 0) // framåt rörelse
