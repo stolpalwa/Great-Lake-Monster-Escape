@@ -18,12 +18,12 @@ public class PlayerScript : MonoBehaviour
         if (playerRB.linearVelocity.x < 0) // Vänster rörelse
         {
             // Moves the object forward at two units per second.
-            transform.position = new Vector3(-1, 0, 0) * Time.deltaTime;
+            transform.position += new Vector3(-1, 0, 0) * Time.deltaTime;
             Debug.Log("Moving Left");
         }
         else if (playerRB.linearVelocity.x > 0) // Höger rörelse
         {
-            transform.position = new Vector3(1, 0, 0) * Time.deltaTime;
+            transform.position += new Vector3(1, 0, 0) * Time.deltaTime;
             Debug.Log("Moving Right");
         }
     }
