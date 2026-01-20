@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {   
-    public static Rigidbody playerRB; // Referens till spelarens (båtens) rigidbody-komponent (spelarens fysik)
+    private Rigidbody playerRB; // Referens till spelarens (båtens) rigidbody-komponent (spelarens fysik)
     public float speed = 15.0f; // Hastigheten för spelarens (båtens) rörelse
     
     void Start()
