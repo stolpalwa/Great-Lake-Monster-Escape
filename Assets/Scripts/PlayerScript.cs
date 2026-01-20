@@ -16,6 +16,7 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             transform.position += new Vector3(0, 0, -1) * (speed * Time.deltaTime);
+            Debug.Log("Spacebar pressed - Boat moving forward");
         }
 
         //if (Input.GetKeyDown(KeyCode.Space))
