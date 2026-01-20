@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {   
-    public float moveSpeed = 10.0f; // Hastigheten för spelarens (båtens) rörelse
     public static Rigidbody playerRB; // Referens till spelarens (båtens) rigidbody-komponent (spelarens fysik)
-
+    public float speed = 10.0f; // Hastigheten för spelarens (båtens) rörelse
+    
     void Start()
     {
         playerRB = GetComponent<Rigidbody>(); // Hämta spelarens (båtens) rigidbody-komponent
@@ -13,7 +13,7 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         //Kollar tangentinmatningen inputGetAxis för horisontell rörelse (vänster och höger)
-        playerRB.linearVelocity = new Vector3 ((moveSpeed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
+        playerRB.linearVelocity = new Vector3 ((speed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
 
         if (playerRB.linearVelocity.x < 0) // Vänster rörelse
         {
