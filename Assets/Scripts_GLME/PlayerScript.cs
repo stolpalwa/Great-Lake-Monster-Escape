@@ -36,13 +36,15 @@ public class PlayerScript : MonoBehaviour
         {
             transform.position = new Vector3(-2, 0, 0); // * Time.deltaTime;
         }
-        else if (playerRB.linearVelocity.x < 0) // Höger rörelse
+        //else
+        if (playerRB.linearVelocity.x < 0) // Höger rörelse
         {
             transform.position = new Vector3(2, 0, 0); // * Time.deltaTime;
         }
-        else // Ingen rörelse
-        {
-            transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
-        }
+        //else // Ingen rörelse
+        //if (playerRB.linearVelocity.x == 0)
+        //{
+        //    transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
+        //}
     }
 }
