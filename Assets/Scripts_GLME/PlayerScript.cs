@@ -10,34 +10,35 @@ public class PlayerScript : MonoBehaviour
         playerRB = GetComponent<Rigidbody>(); // Hämta spelarens (båtens) rigidbody-komponent
     }
 
-    void Update()
+    void FixedUpdate()
     {
+        // Spacebar startar båtens FRAMÅT rörelse
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+            //playerRB.linearVelocity = new Vector3(0, speed * Time.deltaTime, 0);
+            playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
+
+            if (playerRB.linearVelocity.y > 0) // framåt rörelse
+            {
+                transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
+            }
+            else // Ingen rörelse
+            {
+                transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
+            }
+        //}
+
         // Kollar tangentbords-inmatningen för HORISONTELL rörelse => (vänster pil/A eller höger pil/D)
         playerRB.linearVelocity = new Vector3 ((speed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
 
+        // 
         if (playerRB.linearVelocity.x > 0) // Vänster rörelse
         {
-            transform.position += new Vector3(-1, 0, 0) * Time.deltaTime;
+            transform.position = new Vector3(-2, 0, 0); // * Time.deltaTime;
         }
         else if (playerRB.linearVelocity.x < 0) // Höger rörelse
         {
-            transform.position += new Vector3(1, 0, 0) * Time.deltaTime;
-        }
-        else // Ingen rörelse
-        {
-            transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
-        }
-
-        // Kollar tangentbords-inmatningen för VERTIKAL rörelse => (upp pil/W eller ner pil/S)
-        playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
-        
-        if (playerRB.linearVelocity.y > 0) // uppåt rörelse
-        {
-            transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
-        }
-        else if (playerRB.linearVelocity.y < 0) // nedåt rörelse
-        {
-            transform.position += new Vector3(0, 0, 1) * Time.deltaTime;
+            transform.position = new Vector3(2, 0, 0); // * Time.deltaTime;
         }
         else // Ingen rörelse
         {
