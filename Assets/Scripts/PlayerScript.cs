@@ -13,9 +13,10 @@ public class PlayerScript : MonoBehaviour
     void FixedUpdate()
     {
         // Spacebar startar båtens FRAMÅT rörelse
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         { 
             playerRB.linearVelocity = transform.forward * speed;
+            Debug.Log("Spacebar pressed - Boat moving forward");
         }
             //playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
 
