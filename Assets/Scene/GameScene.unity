@@ -615,6 +615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
   speed: 10
+  moveFwd: 0
 --- !u!54 &973516225
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -673,7 +674,7 @@ ConstantForce:
   m_GameObject: {fileID: 973516219}
   m_Enabled: 1
   m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: -30}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1124147524
