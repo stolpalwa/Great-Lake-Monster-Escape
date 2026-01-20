@@ -3,8 +3,9 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {   
     private Rigidbody playerRB; // Referens till spelarens (båtens) rigidbody-komponent (spelarens fysik)
-    public float speed = 15.0f; // Hastigheten för spelarens (båtens) rörelse
-    
+    public float speed = 10.0f; // Hastigheten för spelarens (båtens) rörelse
+    public bool moveFwd; // Variabel för att kontrollera framåtrörelse
+
     void Start()
     {
         playerRB = GetComponent<Rigidbody>(); // Hämta spelarens (båtens) rigidbody-komponent
@@ -12,19 +13,15 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Spacebar startar båtens FRAMÅT rörelse
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    transform.position += new Vector3(0, 0, -1) * (speed * Time.deltaTime);
-        //    Debug.Log("Spacebar pressed - Boat moving forward");
-        //}
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            moveFwd = !moveFwd;
+        }
+        if (moveFwd)
+            transform.Translate(Vector3.forward * Time.deltaTime); // translation:
 
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    playerRB.linearVelocity = transform.forward * speed; // Sätt båtens rörelse framåt med angiven hastighet
-        //    Debug.Log("Spacebar pressed - Boat moving forward");
-        //}
-        playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
+
+        //playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0); // Test att ta bort vertikal rörelse
 
         //if (playerRB.linearVelocity.y > 0) // framåt rörelse
 
