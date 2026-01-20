@@ -13,11 +13,11 @@ public class PlayerScript : MonoBehaviour
     void FixedUpdate()
     {
         // Spacebar startar båtens FRAMÅT rörelse
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            transform.position += new Vector3(0, 0, -1) * (speed * Time.deltaTime);
-            Debug.Log("Spacebar pressed - Boat moving forward");
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    transform.position += new Vector3(0, 0, -1) * (speed * Time.deltaTime);
+        //    Debug.Log("Spacebar pressed - Boat moving forward");
+        //}
 
         //if (Input.GetKeyDown(KeyCode.Space))
         //{
@@ -33,6 +33,7 @@ public class PlayerScript : MonoBehaviour
         //    transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
         //}
 
+        // Fungerar inte som tänkt ännu...
         // Kollar tangentbords-inmatningen för HORISONTELL rörelse => (vänster pil/A eller höger pil/D)
         playerRB.linearVelocity = new Vector3 ((speed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
 
