@@ -23,7 +23,23 @@ public class PlayerScript : MonoBehaviour
         {
             transform.position += new Vector3(1, 0, 0) * Time.deltaTime;
         }
-        else // Ingen sido rörelse
+        else // Ingen rörelse
+        {
+            transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
+        }
+
+        // Kollar tangentbords-inmatningen för VERTIKAL rörelse => (upp pil/W eller ner pil/S)
+        playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
+        
+        if (playerRB.linearVelocity.y > 0) // uppåt rörelse
+        {
+            transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
+        }
+        else if (playerRB.linearVelocity.y < 0) // nedåt rörelse
+        {
+            transform.position += new Vector3(0, 0, 1) * Time.deltaTime;
+        }
+        else // Ingen rörelse
         {
             transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
         }
