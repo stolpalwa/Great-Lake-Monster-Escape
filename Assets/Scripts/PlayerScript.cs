@@ -8,6 +8,11 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody>(); // Hämta spelarens (båtens) rigidbody-komponent
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
+        }
     }
 
     void FixedUpdate()
@@ -21,10 +26,7 @@ public class PlayerScript : MonoBehaviour
         playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0);
 
         //if (playerRB.linearVelocity.y > 0) // framåt rörelse
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            transform.position += new Vector3(0, 0, -1) * Time.deltaTime;
-        }
+
         //else // Ingen rörelse
         //{
         //    transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
