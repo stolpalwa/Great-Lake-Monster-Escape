@@ -13,25 +13,18 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        // Kollar om mellanslagstangenten trycks ned för att aktivera framåtrörelse
         if (Input.GetKeyDown(KeyCode.Space))
         {
             moveFwd = !moveFwd;
         }
         if (moveFwd) 
-            transform.Translate(Vector3.back * Time.deltaTime); // translation:
+            transform.Translate(Vector3.back * Time.deltaTime);
 
 
-        //playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0); // Test att ta bort vertikal rörelse
-
-        //if (playerRB.linearVelocity.y > 0) // framåt rörelse
-
-        //else // Ingen rörelse
-        //{
-        //    transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
-        //}
 
         // Fungerar inte som tänkt ännu...
-        // Kollar tangentbords-inmatningen för HORISONTELL rörelse => (vänster pil/A eller höger pil/D)
+        // Kollar tangentbords-inmatningen för horisontell rörelse (vänster pil/A eller höger pil/D)
         playerRB.linearVelocity = new Vector3 ((speed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
 
         // 
