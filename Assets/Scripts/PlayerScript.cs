@@ -10,21 +10,23 @@ public class PlayerScript : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(StartAfterDelay());      // Fördröjning innan båten börjar röra sig
-        StartCoroutine(PlaySoundEverySecond()); // Spela startljudet varje sekund
+        //StartCoroutine(StartAfterDelay());      // Fördröjning innan båten börjar röra sig
+        //StartCoroutine(PlaySoundEverySecond()); // Spela startljudet varje sekund
     }
 
     void Update()
     {
-        //if (canMove)
-        //{
-        //    transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
-        //}
-
-        // TEST!!! Aktivera rörelse framåt när spelaren trycker ner spacetangenten
-        if (canMove && Input.GetKeyDown(KeyCode.Space))
+        // Tryck på mellanslagstangenten för att tillåta start av rörelse framåt (z-led)
+        // (OBS: Detta gör att båten kan börja röra sig tidigare än efter 3 sekunder)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
+            canMove = true;
+        }
+
+        // Om rörelsen är igång, flytta framåt i z-led
+        if (canMove)
+        {
+           transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
         }
     }
 
