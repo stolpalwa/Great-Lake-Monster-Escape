@@ -13,14 +13,13 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-        // Kollar om mellanslagstangenten trycks ned för att aktivera framåtrörelse
+        // Kollar om mellanslagstangenten trycks ned för att aktivera framåtrörelse. (OBS! Fungerar.  Rör ej!)
         if (Input.GetKeyDown(KeyCode.Space))
         {
             moveFwd = !moveFwd;
         }
         if (moveFwd) 
             transform.Translate(Vector3.back * Time.deltaTime);
-
 
 
         // Fungerar inte som tänkt ännu...
@@ -33,7 +32,7 @@ public class PlayerScript : MonoBehaviour
         {
             transform.position = new Vector3(-2, 0, 0); // * Time.deltaTime;
         }
-        //else
+        else
         if (playerRB.linearVelocity.x < 0) // Höger rörelse
         {
             transform.position = new Vector3(2, 0, 0); // * Time.deltaTime;
