@@ -26,6 +26,7 @@ public class PlayerScript : MonoBehaviour
         // Fungerar inte som tänkt ännu...
         // Kollar tangentbords-inmatningen för horisontell rörelse (vänster pil/A eller höger pil/D)
         //playerRB.linearVelocity = new Vector3 ((speed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
+        playerRB.linearVelocity = new Vector3 (speed * Input.GetAxis("Horizontal"), 0, 0);
 
         // 
         if (playerRB.linearVelocity.x > 0) // Vänster rörelse
