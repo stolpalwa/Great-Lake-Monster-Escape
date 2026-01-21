@@ -1,3 +1,4 @@
+using Codice.CM.Common;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -13,15 +14,37 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         //Kollar tangentinmatningen inputGetAxis för horisontell rörelse (vänster och höger)
-        playerRB.linearVelocity = new Vector3 ((moveSpeed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
+        //playerRB.linearVelocity = new Vector3 ((moveSpeed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
 
-        if (playerRB.linearVelocity.x < 0) // Höger rörelse
+        //if (playerRB.linearVelocity.x < 0) // Höger rörelse
+        //{
+        //    Debug.Log("Moving Right");
+        //}
+        //else if (playerRB.linearVelocity.x > 0) // Vänster rörelse
+        //{
+        //    Debug.Log("Moving Left");
+        //}
+
+        // Fungerar inte som tänkt ännu...
+        // Kollar tangentbords-inmatningen för horisontell rörelse (vänster pil/A eller höger pil/D)
+        playerRB.linearVelocity = new Vector3(moveSpeed * Input.GetAxis("Horizontal"), 0, 0);
+
+        if (playerRB.position.x < 0) // Vänster bana
         {
-            Debug.Log("Moving Right");
+            transform.position = new Vector3(-2, 0, 0); // * Time.deltaTime;
         }
-        else if (playerRB.linearVelocity.x > 0) // Vänster rörelse
+
+
+        if (playerRB.linearVelocity.x == 0) // Mitten 
         {
-            Debug.Log("Moving Left");
+            transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
+        }
+
+
+        if (playerRB.position.x > 0) // Höger bana
+        {
+            transform.position = new Vector3(2, 0, 0); // * Time.deltaTime;
         }
     }
+}
 }
