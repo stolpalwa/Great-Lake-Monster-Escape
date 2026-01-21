@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
             moveFwd = !moveFwd;
         }
         if (moveFwd) 
-            transform.Translate(Vector3.back * Time.deltaTime);
+            transform.Translate(Vector3.forward * Time.deltaTime);
 
 
         // Fungerar inte som tänkt ännu...
