@@ -11,14 +11,16 @@ public class PlayerScript : MonoBehaviour
         playerRB = GetComponent<Rigidbody>(); // Hämta spelarens (båtens) rigidbody-komponent
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             moveFwd = !moveFwd;
         }
         if (moveFwd)
-            transform.Translate(Vector3.forward (speed * Time.deltaTime)); // translation:
+        { 
+            transform.Translate(Vector3.forward * Time.deltaTime); 
+        } // translation:
 
 
         //playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0); // Test att ta bort vertikal rörelse
