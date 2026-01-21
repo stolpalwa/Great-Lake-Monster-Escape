@@ -26,23 +26,23 @@ public class PlayerScript : MonoBehaviour
         // Om rörelsen är igång, flytta framåt (z-led)
         if (canMove)
         {
-           transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
-        }
+            transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
 
-        // Vänster bana
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            transform.position = new Vector3(-2, transform.position.y, transform.position.z);
-        }
-        // Mitten bana
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            transform.position = new Vector3(0, transform.position.y, transform.position.z);
-        }
-        // Höger bana
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            transform.position = new Vector3(2, transform.position.y, transform.position.z);
+            // Vänster bana
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                transform.position = new Vector3(-2, transform.position.y, transform.position.z);
+            }
+            // Mitten bana
+            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                transform.position = new Vector3(0, transform.position.y, transform.position.z);
+            }
+            // Höger bana
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                transform.position = new Vector3(2, transform.position.y, transform.position.z);
+            }
         }
     }
 
