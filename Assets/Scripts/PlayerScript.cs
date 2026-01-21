@@ -15,13 +15,13 @@ public class PlayerScript : MonoBehaviour
         //Kollar tangentinmatningen inputGetAxis för horisontell rörelse (vänster och höger)
         playerRB.linearVelocity = new Vector3 ((moveSpeed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
 
-        if (playerRB.linearVelocity.x < 0) // Vänster rörelse
-        {
-            Debug.Log("Moving Left");
-        }
-        else if (playerRB.linearVelocity.x > 0) // Höger rörelse
+        if (playerRB.linearVelocity.x < 0) // Höger rörelse
         {
             Debug.Log("Moving Right");
+        }
+        else if (playerRB.linearVelocity.x > 0) // Vänster rörelse
+        {
+            Debug.Log("Moving Left");
         }
     }
 }
