@@ -17,10 +17,8 @@ public class PlayerScript : MonoBehaviour
         {
             moveFwd = !moveFwd;
         }
-        if (moveFwd)
-        { 
-            transform.Translate(Vector3.forward * Time.deltaTime); 
-        } // translation:
+        if (moveFwd) 
+            transform.Translate(Vector3.back * Time.deltaTime); // translation:
 
 
         //playerRB.linearVelocity = new Vector3(0, (speed * Time.deltaTime) * Input.GetAxis("Vertical"), 0); // Test att ta bort vertikal rörelse
