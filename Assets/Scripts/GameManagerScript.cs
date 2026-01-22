@@ -15,10 +15,9 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
-    // Vid klick på quitknappen, avsluta spelet. (OBS! Fungerar endast efter att vi har gjort en build av spelet)
+    // Vid klick på quitknappen, avsluta spelet
     public void Quit()
     {
         Application.Quit();
-        Debug.Log("Quit"); // Loggar "Quit" i konsolen för att verifiera att funktionen anropas
     }
 }
