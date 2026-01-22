@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2697560824616796212}
   - component: {fileID: 7333787756278754204}
   m_Layer: 0
-  m_Name: LifeBouy
+  m_Name: LifeBuoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

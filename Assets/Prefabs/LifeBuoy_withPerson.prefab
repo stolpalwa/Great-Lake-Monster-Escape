@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 7474414201832770644}
   - component: {fileID: 1651499515912141520}
   m_Layer: 0
-  m_Name: LifeBouy_withPerson
+  m_Name: LifeBuoy_withPerson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
