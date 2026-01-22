@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 423043842192185567}
   - component: {fileID: 2697560824616796212}
   - component: {fileID: 7333787756278754204}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LifeBuoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

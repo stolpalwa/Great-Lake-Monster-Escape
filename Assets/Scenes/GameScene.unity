@@ -7244,11 +7244,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Samir
       objectReference: {fileID: 0}
-    - target: {fileID: 1530226333739044236, guid: 6c1123615ea86f14a937b8062273ed9b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8418496927965478228, guid: 6c1123615ea86f14a937b8062273ed9b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7298,11 +7293,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8630884550915808108, guid: 6c1123615ea86f14a937b8062273ed9b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -450
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
