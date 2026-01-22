@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6789066883274860870}
   - component: {fileID: 1301788531802585265}
   - component: {fileID: 2374111452757322184}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eye_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 2882191036730669901}
   - component: {fileID: 5778186433922338257}
   - component: {fileID: 6089817910268696529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eye_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,8 @@ GameObject:
   - component: {fileID: 7474414201832770644}
   - component: {fileID: 1651499515912141520}
   - component: {fileID: -3901519071517867632}
-  m_Layer: 0
+  - component: {fileID: 242158688671112274}
+  m_Layer: 7
   m_Name: LifeBuoy_withPerson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,12 +329,26 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 278.36206, y: 213.916, z: 294.98145}
+  m_Size: {x: 278.36206, y: 444.7, z: 294.98145}
   m_Center: {x: 0, y: 6.805655, z: 0}
+--- !u!114 &242158688671112274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8182780278982974843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bbe56fe84104249936d95ab2a3dc40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
+  collisionEffect: {fileID: 0}
+  collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
 --- !u!1 &8935903916273992892
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,8 +360,7 @@ GameObject:
   - component: {fileID: 4098037155225202789}
   - component: {fileID: 8704859418313890116}
   - component: {fileID: 717885289381471838}
-  - component: {fileID: 7577446892057575829}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Person
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,26 +440,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7577446892057575829
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8935903916273992892}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
