@@ -4,7 +4,7 @@ public class BonusObjectScript : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        BoatMoveMentScript player = other.GetComponent<BoatMoveMentScript>();
+        BoatMovementScript player = other.GetComponent<BoatMovementScript>();
         if (player != null)
         {
             player.ActivateSpeedBoost();
