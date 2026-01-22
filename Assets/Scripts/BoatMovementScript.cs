@@ -32,7 +32,7 @@ public class BoatMoveMentScript : MonoBehaviour
         // Om rörelsen är igång, flytta framåt (z-led)
         if (isMoving)
         {
-            transform.Translate(Vector3.forward * currentSpeed); * Time.deltaTime);
+            transform.Translate(Vector3.forward * currentSpeed); // * Time.deltaTime);
 
             // Vänster bana
             if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
