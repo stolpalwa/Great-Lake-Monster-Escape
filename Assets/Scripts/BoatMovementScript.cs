@@ -1,38 +1,41 @@
 using UnityEngine;
- 
+
 public class BoatMovementScript : MonoBehaviour
 {
-    public bool isMoving = false;   // Flagga för att kontrollera när båten kan börja röra sig
-    public bool isBoosting = false; // Flagga för att kontrollera om båten har en hastighetsboost aktiv
-    public float speed = 2f;     // Hastighet för båtens rörelse framåt
-    public float currentSpeed;
-    public float boostDuration = 2f;    // Hur länge boosten varar
+    [Header("Rörelseinställningar")]
+    public bool isMoving = false;
+    public float speed = 5f;        // Bas-hastighet
+    public float currentSpeed;      // Den hastighet båten faktiskt rör sig med just nu
 
-    private float[] lanes = { -2f, 0f, 2f }; // Array för att lagra x-positioner för de tre banorna
-    private int currentLaneIndex = 1;       // Index för nuvarande bana (0 = vänster, 1 = mitten, 2 = höger)
-    // public AudioSource startSound;  // Nedräkningsljud vid start av spelet
+    [Header("Boost-inställningar")]
+    public bool isBoosting = false;
+    public float boostMultiplier = 1.5f;
+    public float boostDuration = 2f;
 
- 
+    [Header("Liv & Status")]
+    public int health = 3;          // Spelarens liv (används av ObstacleScript)
+
+    private float[] lanes = { -2f, 0f, 2f };
+    private int currentLaneIndex = 1;
+
     void Start()
     {
-        currentSpeed = speed; // Sätt den aktuella hastigheten till standardhastigheten vid start
-        //StartCoroutine(PlaySoundEverySecond()); // Anrop till korutin som styr uppspelningen av startljudet
+        currentSpeed = speed;
     }
 
     void Update()
     {
-        // Tryck på mellanslagstangenten för att tillåta start av rörelse framåt (z-led)
+        // Starta spelet med mellanslag
         if (Input.GetKeyDown(KeyCode.Space))
         {
             isMoving = true;
         }
 
-        // Om rörelsen är igång, flytta framåt (z-led)
         if (isMoving)
         {
+            // Flytta framåt baserat på currentSpeed
             transform.Translate(Vector3.forward * currentSpeed * Time.deltaTime);
 
-            // Anropar metoderna nedan //
             HandleInput();
             MoveToLane();
         }
@@ -40,68 +43,47 @@ public class BoatMovementScript : MonoBehaviour
 
     private void HandleInput()
     {
-        // Metod för att hantera tangentbordsinmatning för att byta bana.
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLaneIndex > 0) // Flytta vänster 
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLaneIndex > 0)
         {
             currentLaneIndex--;
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow) && currentLaneIndex < lanes.Length - 1) // Flytta höger
+        if (Input.GetKeyDown(KeyCode.RightArrow) && currentLaneIndex < lanes.Length - 1)
         {
             currentLaneIndex++;
         }
     }
 
-    // Metod för att flytta båten mot den valda banans X-position.
     private void MoveToLane()
     {
+        // Vi räknar ut målpositionen (behåller nuvarande Y och Z)
         Vector3 targetPosition = new Vector3(lanes[currentLaneIndex], transform.position.y, transform.position.z);
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed); // För mjukare sidorörelse lägg till * Time.deltaTime);
+
+        // Flyttar båten i sidled. Använder speed * 2 för att sidoförflyttningen ska kännas rapp.
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * 5f * Time.deltaTime);
     }
 
-
+    // Denna anropas från ObstacleScript vid krock med SpeedBoost-lagret
     public void ActivateSpeedBoost()
     {
-        // Metod för att aktivera hastighetsökning när livbojen plockas upp. //
-        speed *= 1.5f; // Öka hastigheten med 50%
-        Invoke("DeactivateSpeedBoost", 5f); // Återställ hastigheten efter 5 sekunder
+        if (!isBoosting)
+        {
+            StartCoroutine(SpeedBoostRoutine());
+        }
     }
 
-    //public void ActivateSpeedBoost()
-    //{
-    //    if (!isBoosting)
-    //        StartCoroutine(SpeedBoost());
-    //}
+    private System.Collections.IEnumerator SpeedBoostRoutine()
+    {
+        isBoosting = true;
+        currentSpeed = speed * boostMultiplier; // Öka hastigheten
 
-    //private System.Collections.IEnumerator SpeedBoost()
-    //{
-    //    isBoosting = true;
-    //    currentSpeed = boostSpeed;
-    //    yield return new WaitForSeconds(boostDuration);
-    //    currentSpeed = speed;
-    //    isBoosting = false;
-    //}
+        Debug.Log("Boost aktiverad!");
 
+        yield return new WaitForSeconds(boostDuration); // Vänta i x sekunder
 
-    // Kommenterade ut nedanstående korutiner för att undvika ljudproblem under testning
+        currentSpeed = speed; // Återställ till normal hastighet
+        isBoosting = false;
 
-    //IEnumerator StartAfterDelay()
-    //{
-    //    yield return new WaitForSeconds(3f);
-    //    isMoving = true;
-    //}
-
-    //IEnumerator PlaySoundEverySecond()
-    //{
-    //    while (true)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-
-    //        if (startSound != null)
-    //        {
-    //            startSound.Play();
-    //        }
-    //    }
-    //}
-
+        Debug.Log("Boost avslutad.");
+    }
 }
