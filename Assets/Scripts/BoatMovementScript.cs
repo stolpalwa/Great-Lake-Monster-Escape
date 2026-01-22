@@ -72,4 +72,26 @@ public class BoatMovementScript : MonoBehaviour
     //        }
     //    }
     //}
+
+    public void ActivateSpeedBoost()
+    {
+        // Metod för att aktivera hastighetsökning när livbojen plockas upp. //
+        speed *= 1.5f; // Öka hastigheten med 50%
+        Invoke("DeactivateSpeedBoost", 5f); // Återställ hastigheten efter 5 sekunder
+    }
+
+    //public void ActivateSpeedBoost()
+    //{
+    //    if (!isBoosting)
+    //        StartCoroutine(SpeedBoost());
+    //}
+
+    //private System.Collections.IEnumerator SpeedBoost()
+    //{
+    //    isBoosting = true;
+    //    currentSpeed = boostSpeed;
+    //    yield return new WaitForSeconds(boostDuration);
+    //    currentSpeed = speed;
+    //    isBoosting = false;
+    //}
 }
