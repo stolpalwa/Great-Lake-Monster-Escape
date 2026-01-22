@@ -34,44 +34,33 @@ public class BoatMovementScript : MonoBehaviour
         {
             transform.Translate(Vector3.forward * currentSpeed); // * Time.deltaTime);
 
-            // Vänster bana
-            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                transform.position = new Vector3(-2, transform.position.y, transform.position.z);
-            }
-            // Mitten bana
-            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                transform.position = new Vector3(0, transform.position.y, transform.position.z);
-            }
-            // Höger bana
-            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                transform.position = new Vector3(2, transform.position.y, transform.position.z);
-            }
+            // Anropar metoderna nedan //
+            HandleInput();
+            MoveToLane();
         }
     }
 
-    // Kommenterade ut nedanstående korutiner för att undvika ljudproblem under testning
+    private void HandleInput()
+    {
+        // Metod för att hantera tangentbordsinmatning för att byta bana.
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLaneIndex > 0) // Flytta vänster 
+        {
+            currentLaneIndex--;
+        }
 
-    //IEnumerator StartAfterDelay()
-    //{
-    //    yield return new WaitForSeconds(3f);
-    //    isMoving = true;
-    //}
+        if (Input.GetKeyDown(KeyCode.RightArrow) && currentLaneIndex < lanes.Length - 1) // Flytta höger
+        {
+            currentLaneIndex++;
+        }
+    }
 
-    //IEnumerator PlaySoundEverySecond()
-    //{
-    //    while (true)
-    //    {
-    //        yield return new WaitForSeconds(1f);
+    // Metod för att flytta båten mot den valda banans X-position.
+    private void MoveToLane()
+    {
+        Vector3 targetPosition = new Vector3(lanes[currentLaneIndex], transform.position.y, transform.position.z);
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed); // För mjukare sidorörelse lägg till * Time.deltaTime);
+    }
 
-    //        if (startSound != null)
-    //        {
-    //            startSound.Play();
-    //        }
-    //    }
-    //}
 
     public void ActivateSpeedBoost()
     {
@@ -94,4 +83,27 @@ public class BoatMovementScript : MonoBehaviour
     //    currentSpeed = speed;
     //    isBoosting = false;
     //}
+
+
+    // Kommenterade ut nedanstående korutiner för att undvika ljudproblem under testning
+
+    //IEnumerator StartAfterDelay()
+    //{
+    //    yield return new WaitForSeconds(3f);
+    //    isMoving = true;
+    //}
+
+    //IEnumerator PlaySoundEverySecond()
+    //{
+    //    while (true)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+
+    //        if (startSound != null)
+    //        {
+    //            startSound.Play();
+    //        }
+    //    }
+    //}
+
 }
