@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class LifeBuoyPickupScript : MonoBehaviour
+public class BonusObjectScript : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        PlayerMovement player = other.GetComponent<PlayerMovement>();
+        BoatMoveMentScript player = other.GetComponent<BoatMoveMentScript>();
         if (player != null)
         {
             player.ActivateSpeedBoost();

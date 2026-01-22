@@ -1,15 +1,21 @@
 using UnityEngine;
-using System.Collections;
  
-public class PlayerScript : MonoBehaviour
+public class BoatMoveMentScript : MonoBehaviour
 {
-    public float fwdSpeed = 2f;     // Hastighet för båtens rörelse framåt
+    public bool isMoving = false;   // Flagga för att kontrollera när båten kan börja röra sig
+    public bool isBoosting = false; // Flagga för att kontrollera om båten har en hastighetsboost aktiv
+    public float speed = 2f;     // Hastighet för båtens rörelse framåt
+    public float currentSpeed;
+    public float boostDuration = 2f;    // Hur länge boosten varar
+
+    private float[] lanes = { -2f, 0f, 2f }; // Array för att lagra x-positioner för de tre banorna
+    private int currentLaneIndex = 1;       // Index för nuvarande bana (0 = vänster, 1 = mitten, 2 = höger)
     // public AudioSource startSound;  // Nedräkningsljud vid start av spelet
 
-    private bool canMove = false;   // Flagga för att kontrollera när båten kan börja röra sig
-
+ 
     void Start()
     {
+        currentSpeed = speed; // Sätt den aktuella hastigheten till standardhastigheten vid start
         //StartCoroutine(StartAfterDelay());      // Anrop till korutin som styr en fördröjning av X antal sek innan båten börjar röra sig
         //StartCoroutine(PlaySoundEverySecond()); // Anrop till korutin som styr uppspelningen av startljudet
     }
@@ -20,13 +26,13 @@ public class PlayerScript : MonoBehaviour
         // (OBS: Detta gör att båten kan börja röra sig tidigare än efter 3 sekunder)
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            canMove = true;
+            isMoving = true;
         }
 
         // Om rörelsen är igång, flytta framåt (z-led)
-        if (canMove)
+        if (isMoving)
         {
-            transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
+            transform.Translate(Vector3.forward * currentSpeed); * Time.deltaTime);
 
             // Vänster bana
             if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
@@ -51,7 +57,7 @@ public class PlayerScript : MonoBehaviour
     //IEnumerator StartAfterDelay()
     //{
     //    yield return new WaitForSeconds(3f);
-    //    canMove = true;
+    //    isMoving = true;
     //}
 
     //IEnumerator PlaySoundEverySecond()
