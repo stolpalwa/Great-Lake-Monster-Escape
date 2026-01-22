@@ -33,6 +33,12 @@ public class MonsterMovementScript : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("MonsterMovementScript: Space pressed");
+        }
+
+
         if (playerTransform == null || playerScript == null) return;
 
         // 1. Följ spelarens hastighet och rörelse
