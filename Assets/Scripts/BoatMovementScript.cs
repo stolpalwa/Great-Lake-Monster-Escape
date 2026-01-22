@@ -16,14 +16,12 @@ public class BoatMovementScript : MonoBehaviour
     void Start()
     {
         currentSpeed = speed; // Sätt den aktuella hastigheten till standardhastigheten vid start
-        //StartCoroutine(StartAfterDelay());      // Anrop till korutin som styr en fördröjning av X antal sek innan båten börjar röra sig
         //StartCoroutine(PlaySoundEverySecond()); // Anrop till korutin som styr uppspelningen av startljudet
     }
 
     void Update()
     {
         // Tryck på mellanslagstangenten för att tillåta start av rörelse framåt (z-led)
-        // (OBS: Detta gör att båten kan börja röra sig tidigare än efter 3 sekunder)
         if (Input.GetKeyDown(KeyCode.Space))
         {
             isMoving = true;
