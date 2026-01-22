@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7873001121470839010}
-  m_Layer: 6
+  - component: {fileID: 7833736088093411816}
+  m_Layer: 8
   m_Name: Rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,3 +32,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7833736088093411816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9103712446562446421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bbe56fe84104249936d95ab2a3dc40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
+  collisionEffect: {fileID: 0}
+  collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
