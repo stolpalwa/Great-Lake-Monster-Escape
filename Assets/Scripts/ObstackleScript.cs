@@ -1,21 +1,67 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ObstackleScript : MonoBehaviour
+public class ObstacleScript : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    [Header("Inställningar för effekter")]
+    public GameObject collisionEffect;
+    public AudioClip collisionSound;
+
+    // Vi byter OnCollisionEnter mot OnTriggerEnter
+    private void OnTriggerEnter(Collider other)
     {
-        BoatMovementScript player = collision.gameObject.GetComponent<BoatMovementScript>();
+        // Vi kollar om objektet som åkte in i triggern har BoatMovementScript
+        BoatMovementScript player = other.GetComponent<BoatMovementScript>();
+
         if (player != null)
         {
-            
-            Debug.Log("Båten har kolliderat med ett hinder!");
+            Debug.Log($"Trigger aktiverad av: {LayerMask.LayerToName(gameObject.layer)}");
 
-            // Vill ha kod för att kolla vilken typ av hinder båten kolliderar med (3 olika Layer finns för hindren),
-            // samt spela upp ett ljud och en effekt vid kollision med ett hinder.
-            // OM Lager = "Obstacle" förflytta båten bakåt -1 i z-led, förstör hindret (z = nuvarande position - 1)
-            // OM Lager = "SpeedBoost" aktivera speed boost-funktionen i BoatMovementScript,
-            // OM Lager = "Kill" minska spelarens liv med 1, när liv = 0, växla till game over scenen.
-            
+            // Spela effekter
+            PlayEffects();
+
+            int layer = gameObject.layer;
+
+            if (layer == LayerMask.NameToLayer("Obstacle"))
+            {
+                // Flytta båten bakåt -1 i z-led
+                player.transform.position += new Vector3(0, 0, -1);
+                Destroy(gameObject);
+            }
+            else if (layer == LayerMask.NameToLayer("SpeedBoost"))
+            {
+                player.ActivateSpeedBoost();
+                Destroy(gameObject);
+            }
+            else if (layer == LayerMask.NameToLayer("Kill"))
+            {
+                HandleKillCollision(player);
+            }
         }
+    }
+
+    private void PlayEffects()
+    {
+        if (collisionEffect != null)
+        {
+            Instantiate(collisionEffect, transform.position, Quaternion.identity);
+        }
+        if (collisionSound != null)
+        {
+            AudioSource.PlayClipAtPoint(collisionSound, transform.position);
+        }
+    }
+
+    private void HandleKillCollision(BoatMovementScript player)
+    {
+        player.health -= 1;
+        Debug.Log("Liv kvar: " + player.health);
+
+        if (player.health <= 0)
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
+
+        Destroy(gameObject);
     }
 }
