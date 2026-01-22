@@ -1,81 +1,69 @@
-
-
-//    void Update()
-//    {
-//        //Kollar tangentinmatningen inputGetAxis för horisontell rörelse (vänster och höger)
-//        //playerRB.linearVelocity = new Vector3 ((moveSpeed * Time.deltaTime) * Input.GetAxis("Horizontal"), 0, 0);
-
-//        //if (playerRB.linearVelocity.x < 0) // Höger rörelse
-//        //{
-//        //    Debug.Log("Moving Right");
-//        //}
-//        //else if (playerRB.linearVelocity.x > 0) // Vänster rörelse
-//        //{
-//        //    Debug.Log("Moving Left");
-//        //}
-
-//        // Fungerar inte som tänkt ännu...
-//        // Kollar tangentbords-inmatningen för horisontell rörelse (vänster pil/A eller höger pil/D)
-//        playerRB.linearVelocity = new Vector3(moveSpeed * Input.GetAxis("Horizontal"), 0, 0);
-
-//        if (playerRB.position.x < 0) // Vänster bana
-//        {
-//            transform.position = new Vector3(-2, 0, 0); // * Time.deltaTime;
-//        }
-
-
-//        if (playerRB.linearVelocity.x == 0) // Mitten 
-//        {
-//            transform.position += new Vector3(0, 0, 0) * Time.deltaTime;
-//        }
-
-
-//        if (playerRB.position.x > 0) // Höger bana
-//        {
-//            transform.position = 0new Vector3(2, 0, 0); // * Time.deltaTime;
-//        }
-//    }
-
 using UnityEngine;
 using System.Collections;
  
 public class PlayerScript : MonoBehaviour
 {
-    public float moveSpeed = 2f;     // Hastighet för spelarens (båtens) framåtrörelse
-    public AudioSource tickSound;    // Sound that plays every second
+    public float fwdSpeed = 2f;     // Hastighet för båtens rörelse framåt
+    // public AudioSource startSound;  // Nedräkningsljud vid start av spelet
 
-    private bool canMove = false;
+    private bool canMove = false;   // Flagga för att kontrollera när båten kan börja röra sig
 
     void Start()
     {
-        StartCoroutine(StartAfterDelay());
-        StartCoroutine(PlaySoundEverySecond());
+        //StartCoroutine(StartAfterDelay());      // Anrop till korutin som styr en fördröjning av X antal sek innan båten börjar röra sig
+        //StartCoroutine(PlaySoundEverySecond()); // Anrop till korutin som styr uppspelningen av startljudet
     }
 
     void Update()
     {
+        // Tryck på mellanslagstangenten för att tillåta start av rörelse framåt (z-led)
+        // (OBS: Detta gör att båten kan börja röra sig tidigare än efter 3 sekunder)
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            canMove = true;
+        }
+
+        // Om rörelsen är igång, flytta framåt (z-led)
         if (canMove)
         {
-            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        }
-    }
+            transform.Translate(Vector3.forward * fwdSpeed * Time.deltaTime);
 
-    IEnumerator StartAfterDelay()
-    {
-        yield return new WaitForSeconds(3f);
-        canMove = true;
-    }
-
-    IEnumerator PlaySoundEverySecond()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(1f);
-
-            if (tickSound != null)
+            // Vänster bana
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
             {
-                tickSound.Play();
+                transform.position = new Vector3(-2, transform.position.y, transform.position.z);
+            }
+            // Mitten bana
+            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                transform.position = new Vector3(0, transform.position.y, transform.position.z);
+            }
+            // Höger bana
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                transform.position = new Vector3(2, transform.position.y, transform.position.z);
             }
         }
     }
+
+    // Kommenterade ut nedanstående korutiner för att undvika ljudproblem under testning
+
+    //IEnumerator StartAfterDelay()
+    //{
+    //    yield return new WaitForSeconds(3f);
+    //    canMove = true;
+    //}
+
+    //IEnumerator PlaySoundEverySecond()
+    //{
+    //    while (true)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+
+    //        if (startSound != null)
+    //        {
+    //            startSound.Play();
+    //        }
+    //    }
+    //}
 }
