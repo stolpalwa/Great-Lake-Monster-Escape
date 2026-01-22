@@ -32,7 +32,7 @@ public class BoatMovementScript : MonoBehaviour
         // Om rörelsen är igång, flytta framåt (z-led)
         if (isMoving)
         {
-            transform.Translate(Vector3.forward * currentSpeed); // * Time.deltaTime);
+            transform.Translate(Vector3.forward * currentSpeed * Time.deltaTime);
 
             // Anropar metoderna nedan //
             HandleInput();
