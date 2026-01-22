@@ -8638,6 +8638,7 @@ GameObject:
   - component: {fileID: 1793991276}
   - component: {fileID: 1793991275}
   - component: {fileID: 1793991278}
+  - component: {fileID: 1793991279}
   m_Layer: 8
   m_Name: GreatLakeMonster_model
   m_TagString: Untagged
@@ -8737,6 +8738,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 0}
+--- !u!114 &1793991279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793991273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563538a03755c684c9901eb532ef9199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Hypercasual::MonsterMovementScript
+  playerTransform: {fileID: 0}
+  distanceBehind: 10
+  depthUnderWater: -2
+  surfaceY: 0.5
+  activationZ: 50
+  riseSpeed: 2
 --- !u!1 &1796084939
 GameObject:
   m_ObjectHideFlags: 0
