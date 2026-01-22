@@ -1,6 +1,6 @@
 using UnityEngine;
  
-public class BoatMoveMentScript : MonoBehaviour
+public class BoatMovementScript : MonoBehaviour
 {
     public bool isMoving = false;   // Flagga för att kontrollera när båten kan börja röra sig
     public bool isBoosting = false; // Flagga för att kontrollera om båten har en hastighetsboost aktiv
