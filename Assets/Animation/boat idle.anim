@@ -53,7 +53,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -62,7 +62,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -72,13 +72,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -87,7 +87,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -97,13 +97,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -112,7 +112,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -122,13 +122,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -137,7 +137,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -147,13 +147,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -162,7 +162,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -172,13 +172,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -187,7 +187,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -197,13 +197,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -212,7 +212,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -222,13 +222,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -237,7 +237,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -247,13 +247,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -262,7 +262,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -272,13 +272,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 180, z: 0}
+        value: {x: 0, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -287,7 +287,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 360, y: 180, z: 0}
+        value: {x: 360, y: -180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -297,7 +297,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -362,7 +362,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1500501535
+      path: 862225686
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -371,7 +371,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 668904098
+      path: 2749077639
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -380,7 +380,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 289637569
+      path: 3571230737
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -389,7 +389,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1715778647
+      path: 1305868715
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -398,7 +398,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4283295213
+      path: 3400162633
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -407,7 +407,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 443729
+      path: 903970293
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -416,7 +416,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2272879027
+      path: 2900896847
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -425,7 +425,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 510668809
+      path: 3689880793
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -434,7 +434,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1769406623
+      path: 3983684282
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -443,7 +443,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4190641422
+      path: 2479050247
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -733,7 +733,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -743,7 +743,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -752,7 +752,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -763,7 +763,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -793,7 +793,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -823,7 +823,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -833,7 +833,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -842,7 +842,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -853,7 +853,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -883,7 +883,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -913,7 +913,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -923,7 +923,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -932,7 +932,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -943,7 +943,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -973,7 +973,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1003,7 +1003,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1013,7 +1013,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1022,7 +1022,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1033,7 +1033,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1063,7 +1063,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1093,7 +1093,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1103,7 +1103,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1112,7 +1112,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1123,7 +1123,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1153,7 +1153,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1183,7 +1183,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1193,7 +1193,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1202,7 +1202,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1213,7 +1213,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1243,7 +1243,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1273,7 +1273,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1283,7 +1283,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1292,7 +1292,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1303,7 +1303,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1333,7 +1333,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1363,7 +1363,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1373,7 +1373,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1382,7 +1382,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1393,7 +1393,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1423,7 +1423,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1453,7 +1453,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1463,7 +1463,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1472,7 +1472,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1483,7 +1483,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1513,7 +1513,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1543,7 +1543,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1553,7 +1553,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1562,7 +1562,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 180
+        value: -180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1573,7 +1573,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1603,7 +1603,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1652,7 +1652,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1664,7 +1664,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1676,7 +1676,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_L/polySurface40
+    path: modell/VikingBoat (1)/Oars_R/polySurface37
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1688,7 +1688,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1700,7 +1700,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1712,7 +1712,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_L/polySurface41
+    path: modell/VikingBoat (1)/Oars_R/polySurface36
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1724,7 +1724,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1736,7 +1736,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1748,7 +1748,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_L/polySurface42
+    path: modell/VikingBoat (1)/Oars_R/polySurface35
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1760,7 +1760,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1772,7 +1772,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1784,7 +1784,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_R/polySurface22
+    path: modell/VikingBoat (1)/Oars_R/polySurface22
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1796,7 +1796,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1808,7 +1808,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1820,7 +1820,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_R/polySurface35
+    path: modell/VikingBoat (1)/Oars_L/polySurface42
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1832,7 +1832,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1844,7 +1844,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1856,7 +1856,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_R/polySurface36
+    path: modell/VikingBoat (1)/Oars_L/polySurface41
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1868,7 +1868,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1880,7 +1880,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1892,7 +1892,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_R/polySurface37
+    path: modell/VikingBoat (1)/Oars_L/polySurface40
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1904,7 +1904,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1916,7 +1916,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1928,7 +1928,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_R/polySurface38
+    path: modell/VikingBoat (1)/Oars_L/polySurface39
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1940,7 +1940,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1952,7 +1952,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1964,7 +1964,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_L/polySurface39
+    path: modell/VikingBoat (1)/Oars_R/polySurface38
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1976,7 +1976,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1988,7 +1988,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2000,7 +2000,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: modell/VikingBoat/Oars_L/polySurface34
+    path: modell/VikingBoat (1)/Oars_L/polySurface34
     classID: 4
     script: {fileID: 0}
     flags: 0
