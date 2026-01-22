@@ -63,9 +63,9 @@ public class BoatMovementScript : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * 5f * Time.deltaTime);
     }
 
-    // Denna anropas från ObstacleScript vid krock med SpeedBoost-lagret
     public void ActivateSpeedBoost()
     {
+        // Vi kollar så att vi inte redan boostar (för att undvika att starta flera samtidigt)
         if (!isBoosting)
         {
             StartCoroutine(SpeedBoostRoutine());
@@ -74,16 +74,17 @@ public class BoatMovementScript : MonoBehaviour
 
     private System.Collections.IEnumerator SpeedBoostRoutine()
     {
-        isBoosting = true;
-        currentSpeed = speed * boostMultiplier; // Öka hastigheten
+        isBoosting = true; // Här aktiveras din bool!
+        currentSpeed = speed * boostMultiplier;
 
-        Debug.Log("Boost aktiverad!");
+        Debug.Log("Boost startad: isBoosting = " + isBoosting);
 
-        yield return new WaitForSeconds(boostDuration); // Vänta i x sekunder
+        // Vänta i x sekunder
+        yield return new WaitForSeconds(boostDuration);
 
-        currentSpeed = speed; // Återställ till normal hastighet
-        isBoosting = false;
+        currentSpeed = speed; // Återställ hastighet
+        isBoosting = false;   // Här stängs den av!
 
-        Debug.Log("Boost avslutad.");
+        Debug.Log("Boost avslutad: isBoosting = " + isBoosting);
     }
 }
