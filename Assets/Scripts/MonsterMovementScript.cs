@@ -3,21 +3,21 @@ using UnityEngine;
 public class MonsterMovementScript : MonoBehaviour
 {
     [Header("Referenser")]
-    public Transform playerTransform; // Dra in båten här i Inspectorn
+    public Transform playerTransform;       // Dra in båten här i Inspectorn
     private BoatMovementScript playerScript;
 
     [Header("Positionering")]
-    public float distanceBehind = 10f; // Hur långt bakom båten monstret ligger
-    public float depthUnderWater = -2f; // Hur djupt under ytan det börjar
-    public float surfaceY = 0.5f;       // Vilken höjd det har när det dykt upp
-    public float monsterRand;      // Hur snabbt det följer spelarens rörelse
+    public float distanceBehind = 10f;      // Hur långt bakom båten monstret ligger
+    public float depthUnderWater = -2f;     // Hur djupt under ytan det börjar
+    public float surfaceY = 0.5f;           // Vilken höjd det har när det dykt upp
+    public float monsterRand;               // Hur snabbt det följer spelarens rörelse
     public float monsterMinSpeed = 0.8f;    // Bas-hastighet för monstret
     public float monsterMaxSpeed = 1.2f;    // Max-hastighet för monstret
 
 
     [Header("Aktivering")]
-    public float activationZ = 50f;     // Vid vilket Z-värde monstret dyker upp
-    public float riseSpeed = 2f;        // Hur snabbt det rör sig uppåt
+    public float activationZ = 50f;         // Vid vilket Z-värde monstret dyker upp
+    public float riseSpeed = 2f;            // Hur snabbt det rör sig uppåt
 
     private bool hasRisen = false;
 
