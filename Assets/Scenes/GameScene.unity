@@ -330,6 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &9312170
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &31481869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1075,6 +1077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &79673154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1284,6 +1287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &90967431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8545483410727891635, guid: 2aef4158351978d49b979b7708bfdbf2,
@@ -1455,6 +1459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &135191331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1758,6 +1763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &152614443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1983,6 +1989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &175337786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb2d967106b140c4c94dd53bd994cd39,
@@ -2127,6 +2134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: f6a450f4801e00e458175e2ef6dc5fba, type: 3}
+  hitForce: 0
 --- !u!1001 &178023728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2699,6 +2707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &265085350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2919,6 +2928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!4 &280098765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3195843170709029251, guid: 8fe8d145032fa6e48a20827ff23a0c44,
@@ -3222,6 +3232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &313526883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,6 +3359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &314027218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4231,6 +4243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &398836998
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,6 +5025,9 @@ MonoBehaviour:
   distanceBehind: 10
   depthUnderWater: -2
   surfaceY: 0.5
+  monsterRand: 0
+  monsterMinSpeed: 0.8
+  monsterMaxSpeed: 1.2
   activationZ: 50
   riseSpeed: 2
 --- !u!114 &491626866
@@ -5028,6 +5044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 0}
+  hitForce: -2
 --- !u!1 &493001736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5154,6 +5171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &508298659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5185,12 +5203,12 @@ PrefabInstance:
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.28
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.02
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
@@ -5272,6 +5290,9 @@ MonoBehaviour:
   distanceBehind: 10
   depthUnderWater: -2
   surfaceY: 0.5
+  monsterRand: 0
+  monsterMinSpeed: 0.8
+  monsterMaxSpeed: 1.2
   activationZ: 50
   riseSpeed: 2
 --- !u!114 &508298662
@@ -5288,6 +5309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 0}
+  hitForce: 0
 --- !u!4 &508298665 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
@@ -5726,6 +5748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &580239174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5952,6 +5975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &595942080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6831,6 +6855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &768248321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7388,7 +7413,6 @@ GameObject:
   m_Component:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
-  - component: {fileID: 832575520}
   m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
@@ -7428,103 +7452,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &832575520
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832575517}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: af19dcf2eb2434766b7ebfda2204fdbd, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &860596633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7745,6 +7672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &870238361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7950,6 +7878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &902167501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8283,6 +8212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &949339751
 GameObject:
   m_ObjectHideFlags: 0
@@ -8409,6 +8339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &973516219
 GameObject:
   m_ObjectHideFlags: 0
@@ -9088,6 +9019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1081295082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9821,6 +9753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1124147524
 GameObject:
   m_ObjectHideFlags: 0
@@ -10647,6 +10580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1234117014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10950,6 +10884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1251439448
 GameObject:
   m_ObjectHideFlags: 0
@@ -11243,6 +11178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1270049357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12181,6 +12117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1467912094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12426,6 +12363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1524083230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12673,6 +12611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1553916205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12878,6 +12817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1572875581
 GameObject:
   m_ObjectHideFlags: 0
@@ -13004,6 +12944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1573118732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2299151504551787587, guid: 94aa2fea2ef17a24abdab83825130477,
@@ -13157,6 +13098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1581668196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14126,6 +14068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1687637997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14905,6 +14848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1745861666
 GameObject:
   m_ObjectHideFlags: 0
@@ -15031,6 +14975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1758683957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15256,6 +15201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &1775728329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15680,6 +15626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1815007449
 GameObject:
   m_ObjectHideFlags: 0
@@ -15806,6 +15753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1820766517
 GameObject:
   m_ObjectHideFlags: 0
@@ -15932,6 +15880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1822555396
 GameObject:
   m_ObjectHideFlags: 0
@@ -16058,6 +16007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!4 &1841493076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9176215800467316469, guid: 699e610f4679b394aa52c04c6724eb12,
@@ -16572,6 +16522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1934354690
 GameObject:
   m_ObjectHideFlags: 0
@@ -16867,6 +16818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1964416494
 GameObject:
   m_ObjectHideFlags: 0
@@ -16993,6 +16945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &1986289161
 GameObject:
   m_ObjectHideFlags: 0
@@ -17499,6 +17452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &2105244919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17719,6 +17673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1 &2119173055
 GameObject:
   m_ObjectHideFlags: 0
@@ -17845,6 +17800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
+  hitForce: 0
 --- !u!1001 &2122467309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18315,7 +18271,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 78542e76d4c24a745bc1bb599adb55df, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.1
   m_Pitch: 0.5
   Loop: 1
   Mute: 0
@@ -18406,11 +18362,11 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
+  - {fileID: 1109557043}
   - {fileID: 1699384439}
   - {fileID: 809298338}
   - {fileID: 205431645918944794}
   - {fileID: 973516223}
-  - {fileID: 1109557043}
   - {fileID: 491626863}
   - {fileID: 1214917414}
   - {fileID: 1468105354}
