@@ -8380,7 +8380,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.43, y: 3.02, z: 2.78}
+  m_Size: {x: 1.26, y: 3.02, z: 2.78}
   m_Center: {x: 0, y: 0.46, z: 1.54}
 --- !u!4 &973516223
 Transform:
@@ -13938,7 +13938,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.8, y: 3, z: 3}
   m_Center: {x: 0, y: 1.5505543, z: -0.000000007450581}
