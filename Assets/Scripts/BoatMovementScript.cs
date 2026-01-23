@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class BoatMovementScript : MonoBehaviour
 {
-    public bool isMoving = false;       // Kontrollerar om båten rör sig framåt eller inte
-    public bool isBoosting = false;     // Kontrollerar om båten plockat upp en livboj för hastighetsökning
-    public float speed = 2f;            // Normal astighet för förflyttning
-    public float boostSpeed = 5f;       // Hastighet vid boost
-    private float currentSpeed;         //Nuvarande hastighet
-    public float boostDuration = 2f;    // Hur länge boosten varar
+    public bool isMoving = false;               // Kontrollerar om båten rör sig framåt eller inte
+    public bool isBoosting = false;             // Kontrollerar om båten plockat upp en livboj för hastighetsökning
+    public float speed = 2f;                    // Normal astighet för förflyttning
+    public float boostSpeed = 5f;               // Hastighet vid boost
+    private float currentSpeed;                 // Nuvarande hastighet
+    public float boostDuration = 2f;            // Hur länge boosten varar
 
-    private float[] lanes = { -2f, 0f, 2f }; // Array för att lagra x-positioner för de tre banorna
-    private int currentLaneIndex = 1;       // Index för nuvarande bana (0 = vänster, 1 = mitten, 2 = höger)
+    private float[] lanes = { -2f, 0f, 2f };    // Array för att lagra x-positioner för de tre banorna
+    private int currentLaneIndex = 1;           // Index för nuvarande bana (0 = vänster, 1 = mitten, 2 = höger)
 
-    // Header("Liv & Status")
-    public int health = 3;
+    
+    public int health = 3;                      // Header("Liv & Status")
 
     void Start()
     {
