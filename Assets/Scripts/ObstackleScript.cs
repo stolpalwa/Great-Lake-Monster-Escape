@@ -48,7 +48,7 @@ public class ObstacleScript : MonoBehaviour
                 player.isMoving = false;
 
                 // 3. Vänta 2 sekunder (så man hinner höra ljudet) innan scenen byts
-                Invoke("FinishScene", 2.0f);
+                SceneManager.LoadScene("FinishScene");
             }
         }
     }
