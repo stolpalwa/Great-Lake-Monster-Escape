@@ -2533,37 +2533,37 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 809298338}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.019362846
+      value: 2.6769938
       objectReference: {fileID: 0}
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.692485
+      value: 2.676994
       objectReference: {fileID: 0}
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0002714248
+      value: 2.6769936
       objectReference: {fileID: 0}
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.75
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.841979
+      value: 2.8367915
       objectReference: {fileID: 0}
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.500085
+      value: -10.850098
       objectReference: {fileID: 0}
     - target: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
         type: 3}
@@ -2614,12 +2614,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 450518876}
   m_SourcePrefab: {fileID: 100100000, guid: 62ae6eb98c294ec418bcfb83b3d78916, type: 3}
---- !u!4 &322101979 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 971798192530980070, guid: 62ae6eb98c294ec418bcfb83b3d78916,
-    type: 3}
-  m_PrefabInstance: {fileID: 322101978}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -5564,7 +5558,6 @@ Transform:
   m_Children:
   - {fileID: 526420439}
   - {fileID: 820869008}
-  - {fileID: 322101979}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &812049930
@@ -15183,3 +15176,4 @@ SceneRoots:
   - {fileID: 1214917414}
   - {fileID: 1468105354}
   - {fileID: 40777131}
+  - {fileID: 322101978}
