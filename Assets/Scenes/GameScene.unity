@@ -8645,6 +8645,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
