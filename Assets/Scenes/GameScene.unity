@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 9312174}
   - component: {fileID: 9312173}
   - component: {fileID: 9312172}
+  - component: {fileID: 9312175}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -436,6 +437,23 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &9312175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9312170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5a6c84302747c41aad94a709f37fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Hypercasual::HealthUIController
+  boatMovementScript: {fileID: 973516224}
+  health1: {fileID: 252057854}
+  health2: {fileID: 2018056558}
+  health3: {fileID: 1934354690}
+  endScreen: {fileID: 0}
 --- !u!1 &10978707
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,7 +2581,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2689acd037f95ed48b1ffcbc69fbd626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16580,7 +16598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2689acd037f95ed48b1ffcbc69fbd626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17116,7 +17134,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2689acd037f95ed48b1ffcbc69fbd626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
