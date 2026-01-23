@@ -639,6 +639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1611,6 +1616,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1821,10 +1831,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2185,6 +2205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2360,7 +2385,12 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_tmp (15)
+      value: Seaweed_green(7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2747,6 +2777,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2994,7 +3029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &308155105
 Transform:
   m_ObjectHideFlags: 0
@@ -3008,6 +3043,11 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1270049358}
+  - {fileID: 1128202735}
+  - {fileID: 1258744882}
+  - {fileID: 381802823}
+  - {fileID: 768248322}
   - {fileID: 3745613782148238155}
   - {fileID: 1081295083}
   - {fileID: 208972902}
@@ -3054,11 +3094,6 @@ Transform:
   - {fileID: 31481870}
   - {fileID: 2105244920}
   - {fileID: 657748082}
-  - {fileID: 768248322}
-  - {fileID: 381802823}
-  - {fileID: 1258744882}
-  - {fileID: 1270049358}
-  - {fileID: 1128202735}
   m_Father: {fileID: 1468105354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &309764149
@@ -3773,10 +3808,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3959,7 +4004,12 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_tmp (43)
+      value: Seaweed_green(3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4551,6 +4601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4639,6 +4694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4852,95 +4912,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1240999521}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &488363918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 488363919}
-  - component: {fileID: 488363922}
-  - component: {fileID: 488363921}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &488363919
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488363918}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.997, z: -3.5099983}
-  m_LocalScale: {x: 0.6080367, y: 0.6080367, z: 0.6080367}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &488363921
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488363918}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &488363922
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488363918}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &491626861
 GameObject:
   m_ObjectHideFlags: 0
@@ -4995,7 +4966,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1793991277}
+  - {fileID: 508298665}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &491626864
@@ -5189,37 +5160,37 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 491626863}
     m_Modifications:
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2391634
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.853874
+      value: 5.02
       objectReference: {fileID: 0}
     - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
@@ -5255,6 +5226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8532941867228961297, guid: 12039cf4c582ab24da6a0ec0448dae07,
         type: 3}
@@ -5312,6 +5288,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 0}
+--- !u!4 &508298665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5586023519581493592, guid: 12039cf4c582ab24da6a0ec0448dae07,
+    type: 3}
+  m_PrefabInstance: {fileID: 508298659}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &526420435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5503,6 +5485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5587,10 +5574,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5806,6 +5803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6028,6 +6030,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6116,6 +6123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6289,6 +6301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6384,6 +6401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6473,6 +6495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6557,10 +6584,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6867,10 +6904,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_tmp (28)
+      value: Seaweed_green(4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7070,6 +7117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7336,6 +7388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
+  - component: {fileID: 832575520}
   m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
@@ -7375,95 +7428,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &846457329
-GameObject:
+--- !u!82 &832575520
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 846457330}
-  - component: {fileID: 846457333}
-  - component: {fileID: 846457332}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &846457330
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846457329}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.206326, y: -0.0007554342, z: -0.00015929324, w: 0.9784831}
-  m_LocalPosition: {x: 0, y: 1.137, z: 1.1299973}
-  m_LocalScale: {x: 0.69191, y: 0.69191, z: 0.92231596}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 23.814, y: -0.097, z: -0.039}
---- !u!23 &846457332
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846457329}
+  m_GameObject: {fileID: 832575517}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &846457333
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846457329}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: af19dcf2eb2434766b7ebfda2204fdbd, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &860596633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7541,6 +7602,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7961,6 +8027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8653,7 +8724,7 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8875,6 +8946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9093,7 +9169,12 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_tmp (45)
+      value: Seaweed_green(6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9179,10 +9260,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9435,6 +9526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9593,95 +9689,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1115482392
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1115482393}
-  - component: {fileID: 1115482396}
-  - component: {fileID: 1115482395}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1115482393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115482392}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.6199989}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1115482395
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115482392}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1115482396
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115482392}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1116981439 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2790966443563988784, guid: 1cbba432bb574114c9eb8ef1c538cc6f,
@@ -9814,95 +9821,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 8300000, guid: 93827af2766564d40857b36eab1cf07f, type: 3}
---- !u!1 &1122733400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1122733401}
-  - component: {fileID: 1122733404}
-  - component: {fileID: 1122733403}
-  m_Layer: 8
-  m_Name: Capsule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1122733401
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122733400}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.3713749, y: -0, z: -0, w: 0.928483}
-  m_LocalPosition: {x: 0, y: 0.84, z: 0.68}
-  m_LocalScale: {x: 0.5385382, y: 0.625825, z: 0.46004227}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 43.601, y: 0, z: 0}
---- !u!23 &1122733403
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122733400}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1122733404
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122733400}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1124147524
 GameObject:
   m_ObjectHideFlags: 0
@@ -10095,7 +10013,12 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_green1
+      value: Seaweed_green(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10185,6 +10108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10364,6 +10292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10454,10 +10387,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10781,6 +10724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11151,7 +11099,12 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_tmp (14)
+      value: Seaweed_green(2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11372,6 +11325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11625,10 +11583,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11838,6 +11806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11932,6 +11905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12525,6 +12503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13252,6 +13235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13477,6 +13465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13677,6 +13670,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13849,6 +13847,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13943,95 +13946,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fe8d145032fa6e48a20827ff23a0c44, type: 3}
---- !u!1 &1649167204
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1649167205}
-  - component: {fileID: 1649167208}
-  - component: {fileID: 1649167207}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1649167205
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649167204}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.39700004, z: -2.3300018}
-  m_LocalScale: {x: 0.6080367, y: 0.6080367, z: 0.6080367}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1649167207
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649167204}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1649167208
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649167204}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1663241016 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7984209130058667661, guid: 300ca85bfd2395e429683fba10ec1dbb,
@@ -14681,6 +14595,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15185,10 +15104,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15474,136 +15403,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1792204820}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1793991273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1793991277}
-  - component: {fileID: 1793991276}
-  - component: {fileID: 1793991275}
-  - component: {fileID: 1793991278}
-  - component: {fileID: 1793991279}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1793991275
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793991273}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1793991276
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793991273}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1793991277
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793991273}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1122733401}
-  - {fileID: 1115482393}
-  - {fileID: 846457330}
-  - {fileID: 1905784811}
-  - {fileID: 1649167205}
-  - {fileID: 2024872399}
-  - {fileID: 488363919}
-  m_Father: {fileID: 491626863}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1793991278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793991273}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41bbe56fe84104249936d95ab2a3dc40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
-  collisionEffect: {fileID: 0}
-  collisionSound: {fileID: 0}
---- !u!114 &1793991279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793991273}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563538a03755c684c9901eb532ef9199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Hypercasual::MonsterMovementScript
-  playerTransform: {fileID: 0}
-  distanceBehind: 10
-  depthUnderWater: -2
-  surfaceY: 0.5
-  activationZ: 50
-  riseSpeed: 2
 --- !u!1001 &1794268988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16343,6 +16142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seaweed_tmp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16548,95 +16352,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1905784810
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1905784811}
-  - component: {fileID: 1905784814}
-  - component: {fileID: 1905784813}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1905784811
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905784810}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.05700004, z: -0.84000015}
-  m_LocalScale: {x: 0.69191, y: 0.69191, z: 0.69191}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1905784813
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905784810}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1905784814
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905784810}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1921667958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16714,6 +16429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17004,6 +16724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17569,95 +17294,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1254162915}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2024872398
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2024872399}
-  - component: {fileID: 2024872402}
-  - component: {fileID: 2024872401}
-  m_Layer: 8
-  m_Name: GreatLakeMonster_model (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2024872399
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024872398}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6769999, z: -2.9400024}
-  m_LocalScale: {x: 0.6080367, y: 0.6080367, z: 0.6080367}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1793991277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &2024872401
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024872398}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2024872402
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024872398}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2062993386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17940,6 +17576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18277,10 +17918,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7140300985734314232, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b1c78db9340be4db10d08fa9120a5c, type: 2}
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
       value: Seaweed_tmp (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18474,7 +18125,12 @@ PrefabInstance:
     - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
         type: 3}
       propertyPath: m_Name
-      value: Seaweed_tmp (0)
+      value: Seaweed_green(5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683034273736700824, guid: 50fada92a4ccf1b409ffc68c909d4f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18659,7 +18315,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 78542e76d4c24a745bc1bb599adb55df, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.5
   m_Pitch: 0.5
   Loop: 1
   Mute: 0
@@ -18755,7 +18411,6 @@ SceneRoots:
   - {fileID: 205431645918944794}
   - {fileID: 973516223}
   - {fileID: 1109557043}
-  - {fileID: 508298659}
   - {fileID: 491626863}
   - {fileID: 1214917414}
   - {fileID: 1468105354}
