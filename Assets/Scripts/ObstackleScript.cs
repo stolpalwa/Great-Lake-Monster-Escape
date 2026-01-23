@@ -6,6 +6,12 @@ public class ObstacleScript : MonoBehaviour
     [Header("Inställningar för effekter")]
     public GameObject collisionEffect;
     public AudioClip collisionSound;
+    public float [] hitForce = { -2f, -1f };
+
+    void Start()
+    {
+        hitForce = speed;
+    }
 
     // Vi byter OnCollisionEnter mot OnTriggerEnter
     private void OnTriggerEnter(Collider other)
