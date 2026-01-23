@@ -10,6 +10,10 @@ public class MonsterMovementScript : MonoBehaviour
     public float distanceBehind = 10f; // Hur långt bakom båten monstret ligger
     public float depthUnderWater = -2f; // Hur djupt under ytan det börjar
     public float surfaceY = 0.5f;       // Vilken höjd det har när det dykt upp
+    public float monsterRand;      // Hur snabbt det följer spelarens rörelse
+    public float monsterMinSpeed = 0.8f;    // Bas-hastighet för monstret
+    public float monsterMaxSpeed = 1.2f;    // Max-hastighet för monstret
+
 
     [Header("Aktivering")]
     public float activationZ = 50f;     // Vid vilket Z-värde monstret dyker upp
@@ -19,6 +23,8 @@ public class MonsterMovementScript : MonoBehaviour
 
     void Start()
     {
+        monsterRand = Random.Range(monsterMinSpeed, monsterMaxSpeed);
+
         if (playerTransform != null)
         {
             playerScript = playerTransform.GetComponent<BoatMovementScript>();
@@ -66,7 +72,7 @@ public class MonsterMovementScript : MonoBehaviour
 
         // 4. Applicera positionen
         // Vi använder MoveTowards på hela vektorn för att få samma följsamma rörelse i sidled som båten
-        Vector3 newPosition = new Vector3(targetX, targetY, targetZ);
+        Vector3 newPosition = new Vector3(targetX, targetY, targetZ * monsterRand);
 
         // Vi matchar båtens hastighet genom att använda MoveTowards med en hög multiplikator 
         // eller direkt sätta positionen baserat på båtens framfart.
