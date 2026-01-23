@@ -6,12 +6,8 @@ public class ObstacleScript : MonoBehaviour
     [Header("Inställningar för effekter")]
     public GameObject collisionEffect;
     public AudioClip collisionSound;
-    public float [] hitForce = { -2f, -1f };
+    public float hitForce;
 
-    void Start()
-    {
-        hitForce = speed;
-    }
 
     // Vi byter OnCollisionEnter mot OnTriggerEnter
     private void OnTriggerEnter(Collider other)
@@ -31,7 +27,7 @@ public class ObstacleScript : MonoBehaviour
             if (layer == LayerMask.NameToLayer("Obstacle"))
             {
                 // Flytta båten bakåt -1 i z-led
-                player.transform.position += new Vector3(0, 0, -1);
+                player.transform.position += new Vector3(0, 0, hitForce);
                 Destroy(gameObject);
             }
             else if (layer == LayerMask.NameToLayer("SpeedBoost"))

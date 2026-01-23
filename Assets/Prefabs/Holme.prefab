@@ -138,7 +138,8 @@ GameObject:
   - component: {fileID: 196902074396842986}
   - component: {fileID: 282404929711514209}
   - component: {fileID: 3510666211987303480}
-  m_Layer: 0
+  - component: {fileID: 4574783207152534726}
+  m_Layer: 8
   m_Name: Holme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,3 +236,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Hypercasual::ObstacleScript
   collisionEffect: {fileID: 0}
   collisionSound: {fileID: 0}
+--- !u!65 &4574783207152534726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545483410727891635}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.1371307, y: 0.82677686, z: 1.1755499}
+  m_Center: {x: 0, y: 0, z: 0}
