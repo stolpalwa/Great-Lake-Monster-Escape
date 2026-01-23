@@ -6,7 +6,7 @@ public class ObstacleScript : MonoBehaviour
     [Header("Inställningar för effekter")]
     public GameObject collisionEffect;
     public AudioClip collisionSound;
-    public float hitForce;
+    public float hitForce = -1;
 
 
     // Vi byter OnCollisionEnter mot OnTriggerEnter
