@@ -3,7 +3,7 @@ using UnityEngine;
 public class HealthUIController : MonoBehaviour
 {
     [Header("References")]
-    public BoatMovementScript boatMovementScript;
+    public BoatMovementScript boatMovementScript ;
 
     [Header("UI Slots")]
     public GameObject health1;

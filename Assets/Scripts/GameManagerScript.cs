@@ -3,21 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
-    // Säkerställer att startscenen hämtas vid programstarten
+    //private string sceneName;
+
     void Start()
     {
-        SceneManager.GetSceneByName("StartScene");
+        //sceneName = SceneManager.GetActiveScene().name;
+        SceneManager.GetSceneByName ("StartScene");
     }
 
-    // Vid klick på playknappen, byt till spelscenen
     public void Play()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("GameScene"); // Byt till level 1
     }
 
-    // Vid klick på quitknappen, avsluta spelet
     public void Quit()
     {
         Application.Quit();
+        Debug.Log("Quit");
     }
 }
