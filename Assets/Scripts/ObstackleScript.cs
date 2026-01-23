@@ -37,6 +37,17 @@ public class ObstacleScript : MonoBehaviour
             {
                 HandleKillCollision(player);
             }
+            else if (layer == LayerMask.NameToLayer("Finish"))
+            {
+                // 1. Spela fanfaren och effekterna direkt vid krock
+                PlayEffects();
+
+                // 2. Stoppa båten så den inte fortsätter köra under fanfaren
+                player.isMoving = false;
+
+                // 3. Vänta 2 sekunder (så man hinner höra ljudet) innan scenen byts
+                Invoke("FinishScene", 2.0f);
+            }
         }
     }
 
